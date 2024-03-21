@@ -9,7 +9,7 @@ This repository implements Natural Language Processing (NLP) techniques to analy
 
 This project provides a framework for exploring drug review data and extracting valuable insights.
 
-**Key functionalities:**
+# Key functionalities:
 
 * **Exploratory Data Analysis (EDA):**
   * Generates visualizations (word clouds, bar charts, pie charts) to understand:
