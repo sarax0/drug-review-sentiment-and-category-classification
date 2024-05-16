@@ -24,7 +24,13 @@ This project provides a framework for exploring drug review data and extracting 
   * Identifies named entities (specifically drug names) 
   * Applies lemmatization to reduce words to their base form (e.g., "running" -> "run") 
 * **Sentiment Analysis:**
-  * Analyzes reviewer sentiment towards the drugs using NLP techniques. The chosen library/method should be clearly documented within the code 
+  * Analyzes reviewer sentiment towards the drugs.
+    ```
+    data.loc[(data['rating'] >= 5), 'Review_Sentiment'] = 1
+    data.loc[(data['rating'] < 5), 'Review_Sentiment'] = 0
+    ```
+    ![image](https://github.com/sarax0/drug-review-sentiment-and-category-classification/assets/122404545/95bf0f9a-0d4b-4f83-996e-9412802ecf2e)
+
 * **Drug Type Classification:**
   * Implements a Multinomial Naive Bayes (MNB) model to classify drug types based on the reviews 
   * Includes code for testing the model's accuracy using real drug review data 
