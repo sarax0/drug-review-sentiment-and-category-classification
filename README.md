@@ -29,7 +29,7 @@ This project provides a framework for exploring drug review data and extracting 
     data.loc[(data['rating'] >= 5), 'Review_Sentiment'] = 1
     data.loc[(data['rating'] < 5), 'Review_Sentiment'] = 0
     ```
-    <img src ="https://github.com/sarax0/drug-review-sentiment-and-category-classification/assets/122404545/95bf0f9a-0d4b-4f83-996e-9412802ecf2e" style="width:60%"/>
+    <img src ="https://github.com/sarax0/drug-review-sentiment-and-category-classification/assets/122404545/95bf0f9a-0d4b-4f83-996e-9412802ecf2e" style="width:40%"/>
 * **Drug Type Classification:**
   * Implements a Multinomial Naive Bayes (MNB) model to classify drug types based on the reviews 
   * Includes code for testing the model's accuracy using real drug review data 
